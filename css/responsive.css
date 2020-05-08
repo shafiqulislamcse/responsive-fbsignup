@@ -1,0 +1,42 @@
+@media all and (max-width: 1000px){
+	.container{
+		padding:0px 15px;
+	}
+}
+
+@media all and (max-width: 900px){
+.header .brand-name {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.header .login-area {
+		width: 100%;
+		float: none;
+}
+	.header .login-area form{
+		float: none;
+	}
+
+	.login-area .user, .login-area .pass, .login-area .submit {
+		float: none;
+		margin-left: 0;
+		width: 100%;
+	}
+	.login-area input[type="text"], .login-area input[type="password"] {
+		width: 100%;
+	}
+	.content-area .img-area{
+		width: 100%;
+		float: none;
+	}
+	.content-area .img-area h3{
+		padding: 0px;
+	}
+	.content-area .signup-area{
+		width: 100%;
+		float: none;
+	}
+
+
+}

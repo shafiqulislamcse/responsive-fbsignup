@@ -1,0 +1,304 @@
+/*Start global css*/
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-family: helvetica;
+}
+.container{
+	max-width: 1000px;
+	margin: 0px auto;
+}
+/*End global css*/
+
+
+
+/*Start header css*/
+.header{
+	background-color: #415E9B;
+	padding-top: 15px;
+	padding-bottom: 6px;
+}
+.header::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.header .brand-name{
+	width: 40%;
+	float: left;
+}
+.header .brand-name a{
+	text-decoration: none;
+	font-size: 35px;
+	font-weight: 800;
+	color: #fff;
+	margin-top: 9px;
+	display: block;
+}
+.header .login-area{
+	width: 60%;
+	float: left;
+}
+.login-area form{
+	float: right;
+}
+.login-area::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.login-area .user, .login-area .pass, .login-area .submit{
+	float: left;
+	margin-left: 18px;
+} 
+.login-area input{
+	display: block;
+}
+.login-area label{
+	color: #fff;
+	font-size: 13px;
+	font-weight: 400;
+	margin-bottom: 4px;
+	display: block;
+
+}
+.login-area input[type='text'], .login-area input[type='password']{
+	background-color: #FFF8C6;
+	font-size: 13px;
+	padding: 3px;
+	border: 1px solid #201C3A;
+}
+.login-area input[type='text']:focus, .login-area input[type='password']:focus{
+	outline: none;
+}
+.login-area .pass a{
+	font-size: 13px;
+	color:#9CA5BB;
+	font-weight: 400;
+	text-decoration: none;
+	margin-top: 3px;
+	display: block;
+}
+.login-area .pass a:hover{
+	text-decoration: underline;
+}
+.login-area input[type='submit']{
+	font-size: 12px;
+	color: #fff;
+	font-weight: 600;
+	padding: 5px;
+	background-color: #486AB2;
+	border: 1px solid #2A4C87;
+	border-radius: 3px;
+	margin-top: 18px;
+	cursor: pointer;
+}
+.login-area input[type='submit']:hover{
+	background-color: #365899;
+}
+
+/*End header css*/
+
+
+/*Start body css*/
+.content-area{
+	background: linear-gradient(white, #D3D8E8);
+	padding: 20px 0px;
+}
+.content-area::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.content-area .img-area{
+	width: calc(60% - 10px);
+	float: left;
+	margin-right: 20px;
+}
+.content-area .img-area h3 {
+	/* background-color: red; */
+	color: #0E385F;
+	font-size: 20px;
+	padding-right: 118px;
+	padding-top: 20px;
+	line-height: 26px;
+	margin-bottom: 2px;
+}
+.content-area .img-area img{
+	display: block;
+}
+.content-area .signup-area{
+	width: calc(40% - 10px);
+	float: left;
+}
+.content-area .signup-area h1{
+	font-size: 35px;
+	font-weight: 700;
+	color: #333333;
+	margin-bottom: 10px;
+}
+.content-area .signup-area .tag{
+	color: #1D2129;
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.content-area .signup-area .name{
+	width: 100%;
+}
+.content-area .signup-area .name:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.content-area .signup-area .name .fname{
+	width: calc(50% - 5px);
+	float: left;
+}
+.content-area .signup-area .name .sname{
+	width: calc(50% - 5px);
+	float: left;
+	margin-left: 10px;
+}
+.content-area .signup-area input[type='text'], .content-area .signup-area input[type='password']{
+	width: 100%;
+	display: block;
+	margin-bottom: 10px;
+	border: 1px solid #BDC7D8;
+	border-radius: 4px;
+	font-size: 18px;
+	padding:9px;
+}
+.content-area .signup-area input[type='text']::placeholder, .content-area .signup-area input[type='password']::placeholder{
+	color: #999FAF;
+}
+.content-area .signup-area .birthday{
+	margin-top: 20px;
+}
+.content-area .signup-area .birthday label, .content-area .signup-area .gender label{
+	font-size: 16px;
+	font-weight: 600;
+	display: block;
+	color: #90949C;
+	margin-bottom: 8px;
+}
+.content-area .signup-area .birthday select{
+	font-size: 14px;
+	padding:6px;
+	padding-right: 12px;
+	margin: -2px;
+	background-color: #fff;
+	border: 1px solid #CCD0D5;
+}
+.content-area .signup-area .birthday span, .content-area .signup-area .gender span{
+	height: 20px;
+	width: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #fff;
+	font-size: 400;
+	background-color: #606770;
+	display: inline-block;
+	border-radius: 50%;
+	cursor: pointer;
+	margin-left: 15px;
+}
+.content-area .signup-area .gender label{
+	margin-top:15px;
+}
+.content-area .signup-area .gender input{
+	font-size: 15px;
+	margin-left: 10px;
+}
+.content-area .signup-area .gender p{
+	display: inline-block;
+	padding-left: 10px;
+}
+.content-area .signup-area .privacy p{
+	font-size: 13px;
+	color: #777786;
+	padding-right: 25px;
+	line-height: 20px;
+	margin-top: 8px;
+}
+.content-area .signup-area .privacy p a{
+	text-decoration: none;
+	color: #5872C2;
+}
+.content-area .signup-area .privacy p a:hover{
+	text-decoration: underline;
+}
+.content-area .signup-area .btn{
+	margin-top: 10px;
+}
+.content-area .signup-area .btn input{
+	font-size: 18px;
+	font-weight: 500;
+	padding: 8px 70px;
+	color: #fff;
+	background-color: #669E51;
+	border-radius: 5px;
+	border: 1 solid;
+	box-shadow: inset 0 1px 1px #a4e388;
+	border-color: #3b6e22 #3b6e22 #2c5115;
+	cursor: pointer;
+}
+.content-area .signup-area .btn input:hover{
+	background: linear-gradient(#79bc64, #578843);
+}
+.content-area  .page{
+	margin-top: 20px;
+}
+.content-area .page p{
+	color:#666666;
+	font-size: 14px;
+	font-weight: 600;
+}
+.content-area .page p a{
+	text-decoration: none;
+	color: #385898;
+}
+.content-area .page p a:hover{
+	text-decoration: underline;
+}
+/*End body css*/
+
+
+/*Start footer css*/
+.footer{
+	background-color: #fff;
+	padding: 25px 0px;
+}
+.footer .top ul{
+	list-style: none;
+	margin-bottom: 10px;
+}
+.footer .top ul li{
+	display: inline-block;
+	margin-right: 12px;
+}
+.footer .top ul li a{
+	text-decoration: none;
+	font-size: 13px;
+	color: #385898;
+}
+.footer .top ul li:hover > a{
+	text-decoration: underline;
+}
+.footer .top ul li:first-child:hover >a{
+	text-decoration: none;
+	cursor: default;
+}
+.footer .top ul li button{
+	padding: 3px;
+	cursor: pointer;
+}
+.footer .bottom p{
+	color: #737373;
+	margin-top: 20px;
+}
+
+/*End footer css*/
