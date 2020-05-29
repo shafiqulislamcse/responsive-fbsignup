@@ -199,7 +199,7 @@ body{
 	line-height: 20px;
 	text-align: center;
 	color: #fff;
-	font-size: 400;
+	font-weight: 400;
 	background-color: #606770;
 	display: inline-block;
 	border-radius: 50%;
@@ -241,7 +241,6 @@ body{
 	color: #fff;
 	background-color: #669E51;
 	border-radius: 5px;
-	border: 1 solid;
 	box-shadow: inset 0 1px 1px #a4e388;
 	border-color: #3b6e22 #3b6e22 #2c5115;
 	cursor: pointer;
